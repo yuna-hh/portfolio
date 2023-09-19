@@ -1,0 +1,96 @@
+@import "./reset.css";
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard.css");
+:root {
+    --main-color: #ffe494;
+    --bg-color: #ffffff;
+    --text-color: #121314;
+    --title-color: #ff3440;
+    --wrap-color: #dee8ff;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body{
+    font-size: 16px;
+    font-family: "Pretendard";
+    color: var(--text-color);
+    background-color: var(--bg-color);
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+/* header */
+header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 72px;
+    background-color: var(--main-color);
+    padding: 0 40px;
+    z-index: 999;
+}
+
+header .logo{
+    width: 130px;
+}
+
+header nav ul{
+    display: flex;
+    gap: 30px;
+}
+
+main {
+    padding: 72px 0 0 0;
+}
+
+/* home */
+#home{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: var(--main-color);
+}
+
+#home h2{
+    font-size: 80px;
+    line-height: 1.2;
+}
+
+#home h2 strong{
+    font-size: 100px;
+    font-weight: bold;
+}
+
+#home img{
+    width: 500px;
+}
+
+#home a {
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+}
+
+#home a img {
+    width: 32px;
+}
+
+/* about */
+
+main section {
+    padding: 72px 100px 0 100px;
+}

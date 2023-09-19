@@ -3,29 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <title>weniv</title>
 </head>
 <body>
     <header>
         <h1>
             <a href="#">
-                <img src="./images/weniv-logo.png" alt="위니브"/>
+                <img class="logo" src="./images/weniv-logo.png" alt="위니브"/>
             </a>
         </h1>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Activity</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#activity">Activity</a></li>
+                <li><a href="#contect">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section>
-            <h2>안녕하세요,<strong>프론트엔드 개발자 라이캣입니다.</strong></h2>
-            <img src="./images/Lycat.png" alt="인사하는 사자탈을 쓴 고양이 라이캣"/>
-            <a href="#"><img src="#" alt="하단으로 이동"/></a>
+        <section id="home">
+            <h2>안녕하세요.<br/>
+            <strong>프론트엔드 개발자<br/> 
+            라이캣입니다.</strong></h2>
+            <img class="licat" src="./images/Lycat.png" alt="인사하는 사자탈을 쓴 고양이 라이캣"/>
+            <a class="down" href="#about"><img src="./images/down.svg" alt="하단으로 이동"/></a>
         </section>
         <section>
             <h2>About</h2>
